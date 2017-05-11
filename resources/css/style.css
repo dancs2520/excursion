@@ -1,5 +1,5 @@
 html {
-	font-family: Verdana;
+	font-family: Verdana, sans-serif;
 	background-color: black;
 	text-align: center;
 }
@@ -11,26 +11,22 @@ h1 {
 }
 
 h2 {
-	font-size: 32px;
-	font-weight: bold;
+	font-size: 42px;
+	font-weight: 300;
 	color: white;
 }	
 	
-h3 {
-
+p {
+	font-size: 21px;
+	color: gray;
 }
 
-
-h4 {
+.link {
 	font-size: 16px;
 	color: aquamarine;
 
 }
-.prices {
-	font-weight: bold;
-	color: blue;
-}
 
-#brushes {background-color: mediumspringgreen;}
-#frames {background-color: lightcoral;}
-#paint {background-color: skyblue;}
+.footer {
+    text-align: right;
+}
